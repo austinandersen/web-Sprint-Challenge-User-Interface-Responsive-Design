@@ -228,6 +228,58 @@ footer {
 
 
 /*About Page Styles*/
+.image {
+    height: 5%
+}
+
+.about-top-content {
+    margin-top: 10%;
+    border-bottom: 2px solid #ff4b00;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 4%;
+    text-align: justify;
+}
+
+.about-middle-content .strategy {
+    width: 35%;
+    padding: 8% 1%;
+    padding-bottom: 4%;  
+    border-bottom: 2px solid #ff4b00;
+}
+
+.about-middle-content .how-we-work {
+    width: 35%;
+    padding: 8% 1%;
+    padding-bottom: 4%; 
+    border-bottom: 2px solid #ff4b00;
+}
+
+.lower-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 4%;
+    text-align: justify;
+}
+
+.lower-middle-content .places-we-work {
+    width: 35%;
+    padding: 8% 1%;
+    padding-bottom: 4%; 
+    border-bottom: 2px solid #ff4b00;
+}
+
+.lower-middle-content .collaboration {
+    width: 35%;
+    padding: 8% 1%;
+    padding-bottom: 4%; 
+    border-bottom: 2px solid #ff4b00;
+}
 
 
 /*Responsive Styles*/
