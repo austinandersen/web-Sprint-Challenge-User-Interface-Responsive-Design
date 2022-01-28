@@ -86,7 +86,8 @@ nav {
     margin: 2% 4%;
 }
 .logo img {
-    width: 60%;
+    width: 125px;
+    height: 30px;
 }
 
 .links {
@@ -218,14 +219,39 @@ header {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+    margin-bottom: 30%;
 }
 
 /*Footer Styles*/
+
 footer {
+    position:fixed;
+    left: 0px;
+    bottom: 0px;
     width: 100%;
+    height: 150px;
     background-color: #ff4b00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar {
+    width: 60%;
+    padding-left: 17%;
+    background-color: #ff4b00;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch
 }
 
+.navbar a {
+    text-decoration: none;
+    font-size: large;
+    background-color: #ff4b00;
+    color: white;
+    padding-left: 30%;
+}
 
 /*About Page Styles*/
 .image {
@@ -263,7 +289,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 4%;
+    margin-bottom: 1%;
     text-align: justify;
 }
 
@@ -280,6 +306,9 @@ footer {
     padding-bottom: 4%; 
     border-bottom: 2px solid #ff4b00;
 }
-
+.about-bottom-content .work-together {
+    margin: 2%;
+    padding-bottom: 20%; 
+}
 
 /*Responsive Styles*/
