@@ -352,11 +352,12 @@ footer {
 /*Responsive Styles*/
 @media(max-width: 500px) {
     .container {
-        width: 550px;
+        width: 500px;
         margin: 0 auto;
+
     }
     header{
-        width: 550px%;
+        width: 65%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -416,7 +417,6 @@ footer {
         margin-bottom: 1%;
     }
 
-    }
     .middle-content .boxes .box {
         width: 150px;
         height: 150px;
@@ -441,8 +441,6 @@ footer {
         margin-bottom: 25%;
         margin-top: 4%;
     }
-
-    
     .bottom-content .text-container {
         width:50%;
         padding-bottom: 5%;
@@ -476,4 +474,132 @@ footer {
         padding-left: 12%;
         padding-bottom: 5%;
     }
+
+/* About mobile page */
+    .container-about-page {
+        width: 550px;
+        margin: 0 auto;
+    }
+    .img {
+        width: fit-content;
+        height: 10%;
+    }
+    .about-top-content .about-text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        text-align: justify;
+        margin-top: 10%;
+        margin-bottom: 0%;
+        margin-right: 0;
+        margin-left: 10%;
+        padding-bottom: 5%;
+        padding-left: 6%;
+        width: 80%;
+    }  
+
+    .about-middle-content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        align-self: center;
+    }
+    
+    .strategy h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 7%;
+        padding-top: 7%;
+    }
+
+    .strategy img {
+        height: 180px;
+        width: 230px;
+    }
+
+    .strategy p {
+        width: 230px;
+    }
+
+    .how-we-work h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 7%;
+        padding-top: 7%;
+    }
+    .how-we-work img {
+        height: 180px;
+        width: 230px;
+    }
+
+    .how-we-work p {
+        width: 230px;
+    }
+
+    .lower-middle-content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        align-self: center;
+    }
+
+    .places-we-work h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 7%;
+        padding-top: 7%;
+    }
+    .places-we-work img {
+        height: 180px;
+        width: 230px;
+    }
+    .places-we-work p {
+        width: 230px;
+    }
+
+    .collaboration h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 7%;
+        padding-top: 7%;
+    }
+    .collaboration img {
+        height: 180px;
+        width: 230px;
+    }
+    .collaboration p {
+        width: 230px;
+    }
+
+    .about-bottom-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        text-align: justify;
+        margin-bottom: 25%;
+        margin-top: 4%;
+    } 
+    .about-bottom-content .work-together h3 {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 7%;
+    }
+
 }
+
+ 
+   
