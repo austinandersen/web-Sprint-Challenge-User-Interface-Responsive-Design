@@ -474,31 +474,57 @@ footer {
         padding-left: 12%;
         padding-bottom: 5%;
     }
-
-/* About mobile page */
-    .container-about-page {
-        width: 550px;
-        margin: 0 auto;
-    }
+    /* About mobile page*/
     .img {
         width: fit-content;
         height: 10%;
     }
-    .about-top-content .about-text-container {
+    .container-about-page {
+        width: 500px;
+        margin-right: 10%;
+        margin-left: 5%;
+        margin-top: 10%;
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         align-self: center;
         text-align: justify;
-        margin-top: 10%;
+     /*   margin: 0 auto;*/
+    }
+
+  
+    .about-top-content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        text-align: justify;
+      /*  margin-top: 15%;
         margin-bottom: 0%;
         margin-right: 0;
         margin-left: 10%;
-        padding-bottom: 5%;
-        padding-left: 6%;
-        width: 80%;
+        padding-bottom: 7%;
+        padding-left: 6%;*/
+        
     }  
+    .about-text-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        text-align: justify;
+    }
+    .about-text-container h3 {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 7%;
+    }
 
     .about-middle-content {
         display: flex;
@@ -508,39 +534,38 @@ footer {
         align-items: center;
         text-align: justify;
         align-self: center;
+        margin-right: 13.5%;
     }
-    
-    .strategy h3 {
+
+   .about-middle-content .strategy img {
+        height: 250px;
+        width: 400px;
+    }
+    .about-middle-content .strategy {
+        width: 400px;
+        margin-top: 10%;
+    }
+   .about-middle-content .strategy h3 {
         display: flex;
         justify-content: center;
         align-items: center;
         padding-bottom: 7%;
         padding-top: 7%;
     }
-
-    .strategy img {
-        height: 180px;
-        width: 230px;
+    .about-middle-content .how-we-work img {
+        height: 250px;
+        width: 400px;
     }
-
-    .strategy p {
-        width: 230px;
+    .about-middle-content .how-we-work {
+        width: 400px;
+        margin-top: 10%;
     }
-
-    .how-we-work h3 {
+   .about-middle-content .how-we-work h3 {
         display: flex;
         justify-content: center;
         align-items: center;
         padding-bottom: 7%;
         padding-top: 7%;
-    }
-    .how-we-work img {
-        height: 180px;
-        width: 230px;
-    }
-
-    .how-we-work p {
-        width: 230px;
     }
 
     .lower-middle-content {
@@ -551,38 +576,39 @@ footer {
         align-items: center;
         text-align: justify;
         align-self: center;
+        margin-right: 13.5%;
     }
 
-    .places-we-work h3 {
+    .lower-middle-content .places-we-work h3 {
         display: flex;
         justify-content: center;
         align-items: center;
         padding-bottom: 7%;
         padding-top: 7%;
     }
-    .places-we-work img {
-        height: 180px;
-        width: 230px;
+    .lower-middle-content .places-we-work img {
+        height: 250px;
+        width: 400px;
     }
-    .places-we-work p {
-        width: 230px;
+    .lower-middle-content .places-we-work {
+        width: 400px;
+        margin-top: 10%;
     }
-
-    .collaboration h3 {
+    .lower-middle-content .collaboration h3 {
         display: flex;
         justify-content: center;
         align-items: center;
         padding-bottom: 7%;
         padding-top: 7%;
     }
-    .collaboration img {
-        height: 180px;
-        width: 230px;
+    .lower-middle-content .collaboration img {
+        height: 250px;
+        width: 400px;
     }
-    .collaboration p {
-        width: 230px;
+    .lower-middle-content .collaboration {
+        width: 400px;
+        margin-top: 10%;
     }
-
     .about-bottom-content {
         display: flex;
         flex-direction: column;
@@ -590,9 +616,13 @@ footer {
         align-items: center;
         align-self: center;
         text-align: justify;
-        margin-bottom: 25%;
+        margin-bottom: 35%;
         margin-top: 4%;
+        margin-right: 13.5%;
     } 
+    .about-bottom-content .work-together {
+        width: 400px;
+    }
     .about-bottom-content .work-together h3 {
         display: flex;
         justify-content: center;
